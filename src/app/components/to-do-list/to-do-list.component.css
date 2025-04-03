@@ -63,12 +63,8 @@
   }
 }
 
-@media (max-width: 768px) {
-  #container {
-    padding: 20px;
-       
-    form {
-      justify-content: center !important;
-    }
+@media (max-width: 768px) {   
+  form {
+    justify-content: center !important;
   }
 }
