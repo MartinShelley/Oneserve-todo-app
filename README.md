@@ -1,27 +1,17 @@
 # OneserveTodoApp
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.12.
+This challenge was to create a to-do list application using Angular that allows a user to manage tasks with data persistence between sessions.
 
-## Development server
+The application must include the following functionality:
+● A Task should consist of a title
+● Users should be able to access the app via a browser
+● Tasks should display as a list
+● Task state should persist between page reloads (we do not need to manage state for multiple different users, no auth is required)
+● Users can create new tasks
+● Users can mark tasks as complete or incomplete
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Running the application
 
-## Code scaffolding
+To get a copy of the application, open up your terminal and navigate to the directory where you which to store the application and run `git clone https://github.com/MartinShelley/Oneserve-todo-app.git`.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+Once you have cloned the repository, navigate to the project directory using `cd Oneserve-todo-app` and run `npm install` to install all of the necessary dependencies. Once that is complete, run `npm start` in your terminal to start the dev server, then in your browser, navigate to `http://localhost:4200/` to view the application. 

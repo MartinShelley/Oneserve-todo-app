@@ -1,0 +1,14 @@
+<li>
+  <label class="item">
+    <div class="custom-checkbox">
+      <input type="checkbox" (change)="completeTask()" [checked]="task.completed" >
+      <span class="checkmark"></span>
+    </div>
+    <div>
+      <h3>{{task.name}}</h3>
+    </div>
+  </label>
+  <div class="actions">
+    <i class="fa-solid fa-trash" (click)="deleteTask()"></i>
+  </div>
+</li>

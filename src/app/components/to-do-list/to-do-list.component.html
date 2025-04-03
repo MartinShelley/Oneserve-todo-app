@@ -1,0 +1,25 @@
+<main id="container" class="flex">
+  <section id="content">
+    <div id="content-heading">
+      <h1>To Do App</h1>
+    </div>
+    <div id="to-do-section">
+      <form (submit)="addTask(); $event.preventDefault()">
+        <input type="text" placeholder="Please enter a task" [formControl]="taskName" (keydown.enter)="addTask()" aria-label="New task">
+        <button type="submit">Add new task</button>
+      </form>
+      <div>
+        @if(tasks.length) {
+          <ul role="list">
+            @for (task of tasks; track task) {
+              <app-to-do-list-item [task]="task"></app-to-do-list-item>
+            }
+          </ul>
+        }
+        @else {
+          <p>Please enter a task</p>
+        }
+      </div>
+    </div>
+  </section>
+</main>
